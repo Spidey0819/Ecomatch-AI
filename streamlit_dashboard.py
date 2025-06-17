@@ -116,7 +116,7 @@ def train_models(df_clean):
 def main():
     # Header
     st.markdown('<h1 class="main-header">🦅 EcoMatch AI Dashboard</h1>', unsafe_allow_html=True)
-    st.markdown('<p style="text-align: center; font-size: 1.2rem; color: #666;">Match Bird Behavior with Environmental Parameters | Ocean of Data Challenge 2025</p>', unsafe_allow_html=True)
+    st.markdown('<p style="text-align: center; font-size: 1.2rem; color: #666;">Match Bird Behavior with Environmental Parameters </p>', unsafe_allow_html=True)
     
     # Load data
     df, df_clean = load_data()
